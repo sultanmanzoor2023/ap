@@ -68,9 +68,9 @@ st.markdown("""
     /* Clickable image styling */
     .clickable-image {
         cursor: pointer;
-        margin-bottom: 20px;
-        width: 25%;
-        border-radius: 8px;
+        margin-bottom: 10px;
+        width: 100%;
+        border-radius: 10px;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         transition: transform 0.3s ease;
     }
@@ -546,7 +546,7 @@ def main():
 
     # Main tabs
     tab_train, tab_predict = st.tabs(
-        ["֎ Model Training", "🌌 Price Prediction"])
+        ["֎ Model Training", "🔮 Price Prediction"])
 
     with tab_train:
         st.header("⚙️ Model Training Configuration")
@@ -680,7 +680,7 @@ def main():
                             st.line_chart(df)
 
     with tab_predict:
-        st.header("🌌 Price Prediction")
+        st.header("🔮 Price Prediction")
 
         col1, col2, col3 = st.columns([3, 2, 2])
         with col1:
