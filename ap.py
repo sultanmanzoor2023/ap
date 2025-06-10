@@ -474,7 +474,7 @@ def main():
     # Add clickable image at the top
     st.markdown(
         f'<a href="https://four.meme/token/0x0b27a4b8faad66586d67a9bffbbcd61e2e5ff87a?code=5L95FU43AQ3M" target="_blank">'
-        f'<img src="https://raw.githubusercontent.com/sultanmanzoor2023/ap.git/main/ik804.jpg" class="clickable-image" alt="Clickable Image">'
+        f'<img src="https://raw.githubusercontent.com/sultanmanzoor2023/ap.git/main/ik804.jpeg" class="clickable-image" alt="Clickable Image">'
         f'</a>',
         unsafe_allow_html=True
     )
