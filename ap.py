@@ -34,7 +34,7 @@ st.markdown("""
     
     /* Header styling */
     h1 {
-        font-size: 30px !important;
+        font-size: 27px !important;
     }
     
     h2 {
@@ -69,7 +69,7 @@ st.markdown("""
     .clickable-image {
         cursor: pointer;
         margin-bottom: 20px;
-        width: 100%;
+        width: 25%;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         transition: transform 0.3s ease;
@@ -474,12 +474,12 @@ def main():
     # Add clickable image at the top
     st.markdown(
         f'<a href="https://four.meme/token/0x0b27a4b8faad66586d67a9bffbbcd61e2e5ff87a?code=5L95FU43AQ3M" target="_blank">'
-        f'<img src="https://raw.githubusercontent.com/sultanmanzoor2023/ap.git/main/ik804.jpeg" class="clickable-image" alt="Clickable Image">'
+        f'<img src="https://raw.githubusercontent.com/sultanmanzoor2023/ap/refs/heads/main/ik804.jpeg" class="clickable-image" alt="Clickable Image">'
         f'</a>',
         unsafe_allow_html=True
     )
     
-    st.title("📈֎AI Crypto Price Predictor")
+    st.title("📈 ֎AI CRYPTO PRICE PREDICTION")
     st.caption("Powered by ֎SMA.Deep Learning Models with AI Data")
 
     # Initialize session state for coin selection
